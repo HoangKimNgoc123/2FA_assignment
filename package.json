@@ -1,0 +1,26 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "2FA assignment",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HoangKimNgoc123/2FA_assignment.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Hoang Kim Ngoc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HoangKimNgoc123/2FA_assignment/issues"
+  },
+  "homepage": "https://github.com/HoangKimNgoc123/2FA_assignment#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
