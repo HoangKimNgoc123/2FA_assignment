@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Đồ án mạng máy tính</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
 </head>
 
 <body>
+    <p>Welcome, <%= username %>! </p>
     <div class="container" id="container">
         <form action="#" method="post">
             <h1>LOGIN</h1>
@@ -24,12 +25,7 @@
                     <a href="">Forgot password?</a>
                 </div>
             </div>
-            <script>
-                document.getElementById("login-form").addEventListener("submit", function (event) {
-                    event.preventDefault();
-                    window.location.href = "qr.html"; // Chuyển hướng sang trang mã QR
-                });
-            </script>
+            <button type="submit">Đăng nhập</button>
             <div class="social-container">
                 <a href="#" class="social"><i class="lni lni-facebook-fill"></i></a>
                 <a href="#" class="social"><i class="lni lni-google"></i></a>
